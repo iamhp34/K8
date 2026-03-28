@@ -6,7 +6,7 @@ metadata:
 ---
 
 apiVersion: v1
-kind: Seret
+kind: Secret
 metadata:
   name: my-sev-token.txt
   annotations: 
