@@ -8,9 +8,9 @@ metadata:
 apiVersion: v1
 kind: Secret
 metadata:
-  name: my-sev-token.txt
+  name: my-sev-token
   annotations: 
-    kubernetes-io/service-account-kubernetes.io/service-account.name: my-sev
+    kubkubernetes.io/service-account.name: my-sev
   type: kubernetes.io/service-account-token
 
 
