@@ -11,6 +11,6 @@ metadata:
   name: my-sev-token
   annotations: 
     kubernetes.io/service-account.name: "my-sev"
-  type: kubernetes.io/service-account-token
+type: kubernetes.io/service-account-token
 
 
