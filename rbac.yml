@@ -3,6 +3,14 @@ kind: ServiceAccount
 metadata:
   name: my_sev
 
+---
 
+apiVersion: v1
+kind: Seret
+metadata:
+  name: my-sev-token.txt
+  annotations: 
+    kubernetes-io/service-account-kubernetes.io/service-account.name: my-sev
+  type: kubernetes.io/service-account-token
 
 
